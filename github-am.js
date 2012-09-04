@@ -15,7 +15,7 @@ $(document).ready(function() {
 });
 
 function addFavicon(url) {
-    console.log("Greasemonkey script for Patrick's Jenkins is adding Favicon: " + url);
+    console.log("Greasemonkey script for adding Favicon: " + url);
     var link = document.createElement("link");
     link.type = "image/x-icon";
     link.rel = "shortcut icon";
